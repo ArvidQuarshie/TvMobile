@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'checkstyle'
 
 android {
     compileSdkVersion 23
@@ -23,5 +24,14 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.github.pedrovgs:draggablepanel:1.9'
+  //  compile 'com.github.pedrovgs:draggablepanel:1.9'
+
+    compile 'com.squareup.picasso:picasso:2.1.1'
+//    compile 'javax.inject:javax.inject:1@jar'
+//    compile 'com.squareup.dagger:dagger-compiler:1.1.0'
+//    compile 'com.jakewharton:butterknife:4.0.1'
+//    compile 'com.squareup.dagger:dagger:1.1.0'
+//
+//    compile 'com.google.android.gms:play-services:4.1.32'
+//    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
 }
