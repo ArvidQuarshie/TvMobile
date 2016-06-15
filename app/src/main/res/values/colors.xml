@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="black">#222</color>
+    <color name="text_hard_grey">#ECECEC</color>
+    <color name="text_soft_grey">#9B9696</color>
+    <color name="grey">#B9B1B1</color>
+    <color name="text_grey">#7C7373</color>
+    <color name="hard_grey">#6B5A5A</color>
+    <color name="soft_white">#fff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="soft_grey">#D2D2D2</color>
 </resources>
