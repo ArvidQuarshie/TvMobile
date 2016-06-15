@@ -8,6 +8,19 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
+<<<<<<< HEAD
+=======
+
+//public class MainActivity extends AppCompatActivity {
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//    }
+//}
+//package com.example.user.tvmobile;
+>>>>>>> arvid
 
 /**
  * Created by geckozila on 15/06/16.
@@ -20,13 +33,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         image =(ImageView) findViewById(R.id.iv_fan_art);
         String imageUri = "https://unsplash.com/photos/1CsfTx0DuLs";
+=======
+        image =(ImageView) findViewById(R.id.img);
+        // link of the image
+        String imageUri = "http://www.lgg3wallpaper.com/wp-content/uploads/Girl/Girl%20LG%20G3%20Wallpapers%2082.jpg";
+        // picasso instance
+>>>>>>> arvid
         Picasso picasso = new Picasso.Builder(this).listener(new Picasso.Listener(){
             @Override
             public void onImageLoadFailed(Picasso picasso, Uri uri, Exception exception) {
                 exception.printStackTrace();
+<<<<<<< HEAD
         }
+=======
+            }
+>>>>>>> arvid
 
         }).build();
         picasso.load(imageUri).into(image, new Callback() {
